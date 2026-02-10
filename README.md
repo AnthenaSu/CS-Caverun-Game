@@ -2,7 +2,7 @@
 CS Caverun is a turn-based grid game written in C that demonstrates structured program design, state-driven logic, complex rule simulation, and algorithmic problem-solving. This project uses enums, structs, and modular functions to represent entities, board state, player actions, and environmental mechanics.
 
 **Game Rules & Environment** 
-A turn-based grid simulation implemented on a fixed 10×10 board. Each cell stores a single entity value (e.g. DIRT, WALL, BOULDER, GEM, LAVA, PLAYER), and the entire game state is updated synchronously on each input command.
+- A turn-based grid simulation implemented on a fixed 10×10 board. Each cell stores a single entity value (e.g. DIRT, WALL, BOULDER, GEM, LAVA, PLAYER), and the entire game state is updated synchronously on each input command.
 
 **Game State Model**
 - The board is represented as a 2D array of tile structs.
